@@ -1,0 +1,27 @@
+【行】：对应关键词所在的行，模块最多只能存入50行，取值范围：00-49。
+
+【值】：模块识别到关键词之后将播放SD卡中以此值命名的语音（注意：SD卡中的语音命名为4位的，由此值的前面补“0”得来，均为十进制数），同时从串口输出此值。取值范围：000-255
+
+【关键词】：需要识别的词语或者句子，文字的拼音用空格键隔开。
+行   值    关键词
+00   011   kai deng
+01   001   kai deng
+
+02   002   guan deng
+03   003   bian liang
+04   003   liang yi dian
+05   004   bian an
+06   004   an yi dian
+09   255   za men
+10   255   wo men
+11   255   ha ha ha
+12   255   hei hei hei
+17   255   deng dong
+19   010   gang deng
+20   011   kuai deng
+21   011   kai le
+22   071   qi lu kai
+23   070   qi lu guan
+24   010   gang deng
+25   010   gan de
+26   255   hai ai
